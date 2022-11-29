@@ -1,0 +1,42 @@
+.all {
+  background: gray;
+    /* display: flex; */
+}
+
+/* .container {
+  display: flex;
+} */
+
+.center-title {
+  text-align: center;
+  align-items: center;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vh;
+  flex-basis: 40vh;
+}
+
+.right-image-text {
+  /* display: inline-block; */
+  float: right;
+}
+
+.polka-dot {
+  width: 240px;
+  height: 240px;
+}
+
+@media (max-width: 600px) {
+  p{
+    font-size: 5.25rem;
+  }
+
+  .all{
+    background: aqua;
+    width: 100vw;
+  }
+}
